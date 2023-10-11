@@ -1,0 +1,22 @@
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.list{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3.1fr);
+gap: 30px;
+list-style: none;   
+}
+
+.buttonblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
